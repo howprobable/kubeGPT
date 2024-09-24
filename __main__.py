@@ -8,8 +8,8 @@ import sys
 
 agent = GPT(context="""
 You are in control of a kubernetes cluster via kubeapi. The user is a non-devops guy. 
-He does not want to execute commands at all. Please do everything for him.
-Please. Use tools to answer the question or perform the task.
+He does not want to know or execute commands at all. Please do everything on your own. Execution and investigation.
+Please use tools to answer the question or perform the task.
             """,
             parallel_tool_calls=False,
             print_function_calls=False,) 
